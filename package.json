@@ -1,0 +1,28 @@
+{
+  "name": "hospitalapi",
+  "version": "1.0.0",
+  "description": "Hospital API in which doctor can register patients and create report and on the other hand patients can check their reports",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshul-Garg-15/HospitalAPI.git"
+  },
+  "author": "Anshul Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshul-Garg-15/HospitalAPI/issues"
+  },
+  "homepage": "https://github.com/Anshul-Garg-15/HospitalAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
