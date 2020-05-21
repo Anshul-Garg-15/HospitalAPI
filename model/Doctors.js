@@ -10,8 +10,16 @@ const doctorSchema = mongoose.Schema({
     password : {
         type:String,
         required:true
-    }
+    },
 
+    //doctor schema will have patient ID
+    patient: [
+        {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: 'Patient'
+  
+        }
+      ]
 },{
     timestamps:true
 });
